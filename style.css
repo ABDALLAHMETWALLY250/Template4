@@ -1,0 +1,45 @@
+.d
+{
+    background-image: url(https://ychef.files.bbci.co.uk/976x549/p0b926m6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:200px ;
+    height: 86vh;
+    width: 100%;
+    
+    border: 2px solid;    
+}
+.h
+{
+    font-size: 70px;
+}
+.g1
+{
+    font-size: 100px;
+}
+.im
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.di
+{
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 60px;
+    padding-top:200px ;
+    
+
+}
+.v
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

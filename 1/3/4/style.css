@@ -1,0 +1,28 @@
+.s
+{
+    background-image: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:200px ;
+    height: 60vh;
+    width: 100%;
+}
+.h
+{
+    font-size: 75px;
+}
+.r
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.v
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
