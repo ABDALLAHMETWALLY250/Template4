@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize
+}
+
+
+.showcase {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99
+}
+
+.showcase .overlay {
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.showcase h2 {
+
+    font-size: 70px;
+}
+
+.showcase p {
+
+    font-size: 1.2em;
+}
+
+
+.h {
+    font-size: 70px;
+
+}
+
+
+
+.im {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.di {
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 20px;
+
+}
+
+
+
+.v {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:767px) {
+    .showcase h2 {
+        font-size: 68px;
+    }
+
+    .showcase p {
+        font-size: 16px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 59vh;
+        object-fit: cover;
+    }
+    .di h1 {
+        font-size: 55px !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .showcase h2 {
+        font-size: 100px;
+    }
+
+    .showcase p {
+        font-size: 21px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 49vh;
+        object-fit: cover;
+    }
+
+    .di h1 {
+        font-size: 70px !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .showcase h2 {
+        font-size: 95px;
+    }
+
+    .showcase p {
+        font-size: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 59vh;
+        object-fit: cover;
+    }
+}
